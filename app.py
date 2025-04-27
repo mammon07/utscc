@@ -8,7 +8,7 @@ db = pymysql.connect(
     host='databaseuts.cfmioyeiwt5e.ap-southeast-1.rds.amazonaws.com',
     user='admin',
     password='KidzKidz123#',
-    database='dbutsija'
+    database=''
 )
 
 # URL Bucket S3

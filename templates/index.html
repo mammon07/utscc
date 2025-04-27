@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Produk Toko</title>
+</head>
+<body>
+    <h1>Daftar Produk</h1>
+    {% for product in products %}
+        <div>
+            <h2>{{ product.nama }}</h2>
+            <img src="{{ product.gambar_url }}" alt="{{ product.nama }}" width="200px">
+            <p>Harga: Rp{{ product.harga }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
